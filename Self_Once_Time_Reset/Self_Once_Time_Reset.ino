@@ -12,6 +12,7 @@ Serial.println(_r_addr15);
     Serial.println("Start Reset");
     wdt_enable(WDTO_15MS);
     while(1);
+    
   }
 Serial.print("value at addr15 : ");
 Serial.println(_r_addr15);
